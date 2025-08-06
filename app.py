@@ -70,8 +70,14 @@ def main():
 
         with st.expander(f"{status_icon} Build #{build['id']} – {build['branch']} – :{color}[{conclusion}]"):
             st.write(f"🧠 Commit: {build['commit_msg']}")
-            st.write(f"🔁 Status: `{build['status']}`")
-            st.write(f"✅ Result: `{conclusion}`")
+            #st.write(f"🔁 Status: `{build['status']}`")
+            st.markdown(f"🔁 Status: <code>{build['status']}</code>", unsafe_allow_html=True)
+            if conclusion == "success":
+                st.markdown(f"<span style='color:green'>✅ Result: {conclusion}</span>", unsafe_allow_html=True)
+            elif conclusion == "failure":
+                st.markdown(f"<span style='color:red'>❌ Result: {conclusion}</span>", unsafe_allow_html=True)
+            else:
+                st.markdown(f"<span style='color:orange'>⏳ Result: {conclusion}</span>", unsafe_allow_html=True)
             st.write(f"🕒 Start Time: {format_time(build['start_time'])}")
             st.write(f"🕓 End Time: {format_time(build['end_time'])}")
 
