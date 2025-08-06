@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1001,
+    "status": "completed",
+    "conclusion": "success",
+    "branch": "main",
+    "commit_msg": "Initial commit",
+    "start_time": "2025-04-01T10:00:00Z",
+    "end_time": "2025-04-01T10:02:30Z"
+  },
+  {
+    "id": 1002,
+    "status": "completed",
+    "conclusion": "failure",
+    "branch": "dev",
+    "commit_msg": "Fix login bug",
+    "start_time": "2025-04-02T15:20:00Z",
+    "end_time": "2025-04-02T15:23:10Z"
+  },
+  {
+    "id": 1003,
+    "status": "in_progress",
+    "conclusion": null,
+    "branch": "feature/ui",
+    "commit_msg": "Add new UI module",
+    "start_time": "2025-04-03T08:00:00Z",
+    "end_time": null
+  }
+]
