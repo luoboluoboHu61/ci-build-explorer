@@ -2,6 +2,10 @@
 
 A lightweight Streamlit dashboard for visualizing GitHub Actions CI build history, filtering results, and replaying failed builds with mock logs.
 
+## 🚀 Live Demo
+
+👉 [Click to try it live](https://ci-build-explorer.streamlit.app/)
+
 ### 🏁 Dashboard Overview
 ![Overview](screenshots/overview.png)
 
