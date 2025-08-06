@@ -48,8 +48,8 @@ streamlit run app.py
 ├── requirements.txt     # Python dependencies
 ├── .gitignore
 └── README.md
-
-🙋 About
+```
+### 🏁 About me
 Built by Astra Zheng
 Contact: mengyuzheng.zmy@gmail.com
 LinkedIn：https://www.linkedin.com/in/astrazheng
