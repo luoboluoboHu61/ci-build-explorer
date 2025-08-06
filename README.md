@@ -5,7 +5,7 @@ A lightweight Streamlit dashboard for visualizing GitHub Actions CI build histor
 ### 🏁 Dashboard Overview
 ![Overview](screenshots/overview.png)
 
-### 🔍 Build Filtering by ID & Date
+### 🔍 View status, logs, and result of each build
 ![Filtering](screenshots/buildhistory.png)
 
 ### ✅ Successful Build Details
@@ -51,5 +51,7 @@ streamlit run app.py
 ```
 ### 🏁 About me
 Built by Astra Zheng
+
 Contact: mengyuzheng.zmy@gmail.com
+
 LinkedIn：https://www.linkedin.com/in/astrazheng
