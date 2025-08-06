@@ -6,7 +6,7 @@ A lightweight Streamlit dashboard for visualizing GitHub Actions CI build histor
 ![Overview](screenshots/overview.png)
 
 ### 🔍 Build Filtering by ID & Date
-![Filtering](screenshots/buildhistory.png)
+![Filtering](screenshots/build history.png)
 
 ### ✅ Successful Build Details
 ![Success Log](screenshots/success.png)
